@@ -1,0 +1,16 @@
+current_number= int(input('Enter starting number: '))
+step_count= 0
+print('Enter starting number: ',current_number)
+sequence= [current_number]
+while current_number != 1:
+    if current_number%2 == 0:
+       current_number = current_number/2
+    else:
+        current_number = (current_number*3)+1
+    sequence.append(current_number)
+    step_count += 1
+
+print('Sequence: ',sequence)
+print('Steps: ',step_count)
+    
+# a while loop was used cause there is no definite number the loop needs to run for
