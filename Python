@@ -35,8 +35,6 @@ else:
             break
     if is_prime:
             print(positive_num,'is prime!')
-
-
 #3
 print('\n=== Challenge 3: Multiplication Table ===')
 row= list(range(1,11))
